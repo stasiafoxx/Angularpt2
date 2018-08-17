@@ -1,0 +1,12 @@
+<div class="margin-body">
+  <h1 class="text-center">Login</h1>
+  <form class="form-container">
+    <mat-form-field>
+      <input matInput type="text" placeholder="Email" name="email" ([ngModel])="authUser.email">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="password" placeholder="Password" name="password" [ngModel])="authUser.password">
+    </mat-form-field>
+    <button mat-raised-button color="accent">Login</button>
+  </form>
+</div>
